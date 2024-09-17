@@ -1,0 +1,735 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img{
+    width: 50px;
+    height: 50px;
+}
+.though{
+    margin-left: 10px;
+    color: crimson;
+    font-size: 30px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 32px;
+    align-items: center;
+    margin-bottom: 60px;
+    position: fixed;
+    /* top: 0; */
+    width: 100%;
+    background-color: white;
+    
+}
+.navitem{
+    display: flex;
+    align-items: center;
+}
+.button1{
+    padding: 13.5px 27px;
+    border-radius: 30px;
+    background-color: crimson;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500px;  
+    
+}
+.button1:hover{
+    /* background-color: none; */
+    /* transform: translate(1.2); */
+    border: 2px solid white;
+    outline: 3px solid red;
+    /* padding: 1.5px; */
+}
+.services{
+    gap: 30px;
+    display: flex;
+}
+
+.serve{
+    color: black;
+}
+.serve:hover:hover{
+    color: crimson;
+}
+
+.blog{
+    color: crimson;
+}
+
+
+.blog:hover{
+    color: rgb(143, 25, 25);
+    transform: scale(1.1);
+}
+
+.glass{
+    padding: 15px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.glass:hover{
+    outline: 3px solid grey;
+    background-color: white;
+}
+.head1{
+    font-size: 50px;
+    margin-bottom: 25px;
+    font-family: sans-serif;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    padding-top: 150px;
+}
+.p1{
+    margin-bottom: 60px;
+    font-size: 25px;
+    font-family: sans-serif;
+    
+}
+.button2{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.button3{
+    padding: 12.15px 18px;
+    border-radius: 30px;
+    background-color: crimson;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500px;
+}
+.button4{
+    padding: 12.15px 18px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.button4:hover{
+    transform: scale(1.2);
+    transition: all ease-in;
+    /* border-color: crimson; */
+    color: crimson;
+    border: 2px solid crimson;
+}
+
+.p2{
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+.p2:hover{
+    color: crimson;
+}
+
+.subp{
+    display: flex;
+}
+.firstp{
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+.pee{
+    font-size: 18px;
+}
+.capital{
+    font-size: 13px;
+    font-family: sans-serif;
+    line-height: 20px;
+    font-weight: bold;
+    color: dimgray;
+}
+.date{
+    font-size: 18px;
+}
+.secondp{
+    margin-top: 60px;
+    font-family: sans-serif;
+}
+.p4{
+    color: crimson;
+}
+
+.p4:hover{
+    color: rgb(143, 25, 25);
+}
+
+.etab{
+    margin-top: 60px;
+    padding: 30px;
+    background-color: whitesmoke;
+    width: 670px;
+    height: 230px;
+    border-radius: 15px;
+}
+.input{
+    width: 450px;
+    height: 45px;
+    padding: 2px;
+    border-radius: 8px;
+}
+.sign{
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+.Subscribe{
+    padding: 13.5px 27px;
+    border-radius: 30px;
+    background-color: crimson;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500px; 
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+.numbers{
+    display: flex;
+    margin-top: 40px;
+    font-family: sans-serif;
+    margin-left: 41%;
+}
+
+
+.quick{
+    border: 0px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 20;
+    background-color: bisque;
+    border-radius: 10px;
+    margin-left:40.7%
+    
+}
+.wiki{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.quick:hover{
+    background-color: rgb(241, 185, 145);
+    border-radius: 2px solid black;
+    transform: scale(1.5);
+}
+.dred{
+    color: crimson;
+    margin-left: 5px;
+}
+.dots{
+    margin-left: 5px;
+}
+.down{
+    /* background-color: rgba(0, 0, 0, 0.798); */
+    /* width: 100%; */
+    /* padding: 54px 40px; */
+    display: flex;
+}
+.overall{
+    background-color: rgba(0, 0, 0, 0.798);
+    width: 100%;
+    padding: 50px 40px;
+    margin-top: 80px;
+}
+.products a{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* gap: 50px; */
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+    font-size: 17px;
+}
+.products a:hover{
+    color: crimson;
+}
+.items{
+    display: flex;
+    /* align-items: end; */
+    margin-left: 35%;
+    gap: 150px;   
+}
+.though2{
+    color: crimson;
+    margin-left: 10px;
+    margin-top: 7px;
+    font-size: 37px;
+}
+.navitem2{
+    display: flex;
+    /* align-items: center; */
+    padding-top: 0;
+}
+.contact{
+    display: flex;
+    margin-top: 80px;
+}
+.Cspan{
+    color: silver;
+    /* font-size: 15px; */
+}
+.Cspan1{
+    color: silver;
+}
+.Cspan1:hover{
+    color: crimson;
+}
+
+.contact2{
+    margin-left: 15%;
+}
+p{
+    font-family: sans-serif;
+    line-height: 35px;
+}
+.products>a.yellow{
+    color: navajowhite;
+}
+
+.products>a.yellow:hover{
+    color: crimson;
+}
+a{
+    font-family: sans-serif;
+}
+.header:hover{
+    color: crimson;
+}
+.secondp:hover{
+    color: crimson;
+}
+.linking{
+
+    color: whitesmoke;
+    margin-left: 40%
+}
+.inc{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+@media screen and (max-width:2560px) {
+    .contact2{
+        margin-left: 45.9%;
+    }
+    .items{
+        margin-left: 55%;
+    }
+
+}
+
+@media screen and (max-width:1440px) {
+    .contact2{
+        margin-left: 26%;
+    }
+}
+
+@media screen  and (max-width:1024px) {
+    .nav{
+        display: flex;
+        gap: 0;
+    }
+    .head1{
+        font-size: 40px;
+    }
+    .p1{
+        font-size: 18px;
+    }
+    .products{
+        margin-left: 20px;
+        gap: 100px;
+    }
+    .items{
+        gap: 50px;
+        margin-left: 20%;
+    }
+    .contact2{
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .nav{
+        gap: 3px;
+        
+    }
+    .services{
+        gap: 7px;
+        font-size: 13px;
+    }
+    .button1{
+        padding: 10px 24px;
+        font-size: 12px;
+        font-weight: 200px;
+    }
+    .glass{
+        margin-right: 3px;
+        padding: 12px;
+    }
+    .pee{
+        font-size: 12px;
+    }
+    .items{
+        margin-left: 20%;
+        gap: 30px;
+    }
+    .products>a{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .inc{
+        font-size: 12px;
+    }
+    .contact{
+        margin-left: 0%;
+        font-size: 12px;
+    }
+    .though{
+        font-size: 23px;
+    }
+    .img{
+        width: 45px;
+        height: 45px;
+    }
+    .head1{
+        font-size: 30px;
+    }
+    .p1{
+        font-size: 16px;
+    }
+    .button3{
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+    .button4{
+        font-size: 10px;
+        padding: 10px 15px;
+    }
+    .etab{
+        width: 600px;
+        height: 200px;
+    }
+    .Subscribe{
+        font-size: 10px;
+        padding: 12px 15px;
+    }
+    input{
+        width: 400px;
+        height: 35px;
+    }
+    .contact2{
+        margin-left: 13%;
+    }
+    
+}
+
+@media screen and (max-width:426px) {
+    .services{
+       gap: 5px;
+       font-size: 8px;
+    }
+    .though {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    .glass{
+        margin-right: 2px;
+        padding: 8px;
+    }
+    .horizon{
+        width: 100%;
+    }
+    .button3{
+        padding: 8px 12px;
+        font-size: 10px;
+    }
+    .button4{
+        padding: 8px 12px;
+    }
+    .button2{
+        gap: 3px;
+        margin-top: 25px;
+    }
+    .container{
+        width: 90%;
+    }
+    .head1{
+        font-size: 23px;
+    }
+    .p1{
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+    .pee{
+        line-height: 15px;
+        font-size: 11px;
+    }
+    .etab{
+        width: 350px;
+        height: 200px;
+    }
+    .sign{
+        font-size: 18px;
+    }
+    .input{
+        width: 200px;
+        height: 40px;
+    }
+    .though2{
+        font-size: 20px;
+        margin-left: 5px;
+    }
+    .overall{
+        padding: 33px 17px;
+    }
+    .products>a{
+        font-size: 8px;
+    }
+    .items {
+        margin-left: 7%;
+        gap: 5px;
+    }
+    .header{
+        font-size: 15px;
+    }
+    .secondp{
+        font-size: 15px;
+    }
+    .date{
+        font-size: 11px;
+    }
+    .p4{
+        font-size: 11px;
+    }
+    .capital{
+        font-size: 11px;
+    }
+    .numbtag{
+        margin-left: 0px;
+    }
+    .contact2{
+        margin-left: 8%;
+        font-size: 8px;
+    }
+    .contact{
+        /* font-size: 5px; */
+    }
+    .inc{
+        font-size: 6px;
+    }
+   .button1{
+        padding: 4px 6px;
+        font-size: 8px;
+   }
+
+   .p2{
+    font-size: 12px;
+   }
+   .img{
+        width: 40px;
+        height: 40px;
+        margin-left: 0;
+   }
+   .glass{
+        margin-right: 1px;
+        padding: 8px;
+   }
+   .nav{
+        padding: 15px 10px;
+   }
+   .quick{
+        width: 170px;
+        height: 20;
+        background-color: bisque;
+        border-radius: 10px;
+        margin-left:21.7%
+    }
+    .numbers{
+        margin-left: 24%;
+        font-size: 12px;
+    }
+    .wiki{
+        font-size: 11px;
+    }
+}   
+
+@media screen and (max-width:375px) {
+    .button1{
+        padding: 4px 4px;
+        font-size: 8px;
+    }
+    .glass{
+        margin-right: 2px;
+        padding: 2px;
+   }
+   .head1{
+        font-size: 20px;
+   }
+   .sign{
+    font-size: 17px;
+   }
+   .img{
+        width: 35px;
+        height: 35px;
+        margin-left: 0;
+    }
+    .though{
+        margin-left: 1.5px;
+    }
+    .services{
+        gap: 7px;
+        font-size: 6px;
+        margin-left: 0;
+    }
+    .nav{
+        padding: 12px 8px;
+        gap: 2px;
+    }
+    .butglass{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .button3{
+        padding: 6px 9px;
+        font-size: 9px;
+    }
+    .button4{
+        padding: 4px 9px;
+    }
+    .button2{
+        gap: 3px;
+        margin-top: 25px;
+    }
+    .p2{
+        font-size: 12px;
+    }
+    .container{
+        padding-top: 90px;
+        top: 0;
+    }
+    .etab{
+        width: 340px;
+        height: 200px;
+
+    }
+    .input{
+        width: 200px;
+        height: 35px;
+    }
+    .email{
+        gap: 1px;
+    }
+    .Subscribe{
+        padding: 10px 12px;
+        margin-left: 0px;
+    }
+    .overall {
+        padding: 16px 6px;
+    }
+    .contact2{
+        margin-left: 5%;
+        font-size: 7px;
+    }
+    .numbtag{
+        margin-left: 0px;
+    }
+
+    .quick{
+        border: 0px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 20;
+        background-color: bisque;
+        border-radius: 10px;
+        margin-left:22.7%
+        
+        
+    }
+    .numbers{
+        margin-left: 24%;
+        font-size: 12px;
+    }
+    .wiki{
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .img{
+        width: 30px;
+        height: 30px;
+        margin-left: 0;
+    }
+    .though{
+        margin-left: 1.5px;
+        font-size: 9px;
+    }
+    .head1{
+        font-size: 17px;
+        margin-bottom: 9px;
+   }
+   .button3{
+        padding: 5px 7px;
+        font-size: 9px;
+    }
+    .button4{
+        padding: 2px 7px;
+    }
+    .button2{
+        gap: 1px;
+        margin-top: 25px;
+    }
+    .p2{
+        font-size: 11px;
+    }
+   .sign{
+        font-size: 14px;
+   }
+   .input{
+        width: 170px;
+        height: 30px;
+    }
+
+    .etab{
+        width: 290px;
+        height: 145px;
+        padding: 10px;
+    }
+    .products>a{
+        font-size: 6px;
+        
+    }
+    .items {
+        margin-left: 8%;
+        gap: 1px;
+        line-height: 0;
+    }
+    .contact2{
+        margin-left: 5%;
+        font-size: 5px;
+        line-height: 0;
+    }
+    .contact{
+        font-size: 5px;
+    }
+
+}
